@@ -1,0 +1,18 @@
+# Folders
+.git/
+
+# Files
+*.so
+*.exe
+*.test
+*.dll
+*.out
+go.work
+.gitignore
+*.log
+readme.md
+README.md
+
+# Docker files
+.dockerignore
+Dockerfile
