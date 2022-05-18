@@ -1,0 +1,27 @@
+# Folders
+__pycache__/
+build/
+dist/
+target/
+venv/
+tests/
+.venv/
+.cache/
+.coverage/
+.pytest_cache/
+.pybuilder/
+
+# Files
+*.py[cod]
+*.so
+.Python
+pip-log.txt
+.gitignore
+*.log
+local_settings.py
+readme.md
+README.md
+
+# Docker files
+.dockerignore
+Dockerfile
