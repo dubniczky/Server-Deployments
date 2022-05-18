@@ -10,11 +10,17 @@ WORKDIR /app
 COPY . .
 #RUN ls -la
 
+# Install/update package manager
+RUN npm install -g yarn
+#RUN npm install -g pnpm
+
 # Install dependencies
-RUN make install
+RUN yarn install --frozen-lockfile
+#RUN pnpm install --frozen-lockfile
+#RUN npm ci
 
 # Build react app
-RUN make build
+RUN npx react-scripts build
 
 ###
 ### DEPLOY STAGE
