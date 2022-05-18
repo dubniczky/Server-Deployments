@@ -2,6 +2,14 @@
 
 Server deployment containers for different frameworks
 
+[[_TOC_]]
+
+## Disclaimer
+
+These container images are not "final". They serve as a base to start out and in most cases work as-is with your project for quick testing.
+
+Please read the [Docker documentation](https://docs.docker.com/) and set up certificates before deploying these containers.
+
 ## Frameworks
 
 > Version: lastest release of framework where the deployment was tested. It might require modifications in later versions.
