@@ -1,0 +1,14 @@
+# Folders
+vendor/
+node_modules/
+tests/
+
+# Files
+*.example*
+.gitignore
+readme.md
+README.md
+
+# Docker files
+.dockerignore
+Dockerfile
