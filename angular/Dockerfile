@@ -24,6 +24,9 @@ FROM nginx:alpine as deploy
 ### DEPLOY STAGE
 ###
 
+# Project name (as defined in your angular.json outputPath)
+ENV PROJECT_NAME angular-project
+
 # Nginx default serve directory
 WORKDIR /usr/share/nginx/html
 
@@ -31,7 +34,7 @@ WORKDIR /usr/share/nginx/html
 RUN rm -rf ./*
 
 # Copy deployment from build stage
-COPY --from=build /app/dist/PROJECT_NAME .
+COPY --from=build /app/dist/${PROJECT_NAME} .
 
 # Expose web ports (http, https)
 EXPOSE 80 443
