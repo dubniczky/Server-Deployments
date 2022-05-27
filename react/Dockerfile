@@ -11,7 +11,7 @@ COPY . .
 #RUN ls -la
 
 # Install/update package manager
-RUN npm install -g yarn
+#RUN npm install -g yarn
 #RUN npm install -g pnpm
 
 # Install dependencies
