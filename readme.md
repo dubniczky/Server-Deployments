@@ -21,7 +21,7 @@ Please read the [Docker documentation](https://docs.docker.com/) and set up cert
 |[Go](/go)|`v1.18.2`|2|`go`, `golang`, `mux`, `alpine`|
 |[Laravel](/laravel)|`v9.1.8`|1|`php`, `laravel`, `artisan`, `composer`, `npm`|
 |[NodeJS](/nodejs)|`v16.15.0 LTS`|1|`nodejs`, `js`, `yarn`, `npm`, `npx`, `pnpm`, `pm2`|
-|[React](/react)|`v18.1.0`|2|`react`, `nodejs`, `js`, `html`, `yarn`, `npm`, `npx`|
+|[React](/react)|`v18.1.0`|2|`react`, `nginx`, `nodejs`, `js`, `html`, `yarn`, `npm`, `npx`|
 
 ## Usage
 
