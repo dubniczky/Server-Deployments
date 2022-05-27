@@ -1,0 +1,14 @@
+.vscode/
+.git/
+.angular/
+node_modules/
+dist/
+build/
+
+.gitignore
+readme.md
+README.md
+LICENSE
+
+.dockerignore
+Dockerfile
