@@ -17,12 +17,11 @@ RUN yarn install --frozen-lockfile
 # Build project
 RUN npx ng build
 
-
-FROM nginx:alpine as deploy
-
 ###
 ### DEPLOY STAGE
 ###
+
+FROM nginx:alpine as deploy
 
 # Project name (as defined in your angular.json outputPath)
 ENV PROJECT_NAME angular-project
