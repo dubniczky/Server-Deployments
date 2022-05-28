@@ -28,6 +28,9 @@ WORKDIR /app
 # Copy deployment from build stage
 COPY --from=build /app/app .
 
+# Expose api port
+EXPOSE 8080
+
 # Define host process
 ENTRYPOINT [ "dotnet" ]
 
