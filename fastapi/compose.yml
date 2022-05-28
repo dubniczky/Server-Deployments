@@ -1,0 +1,12 @@
+version: '3'
+services:
+  fastapi:
+    container_name: fastapi
+    hostname: fastapi
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+      - 443:443
+    restart: unless-stopped
