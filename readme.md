@@ -84,6 +84,28 @@ Test the container to see if everything is working and it's available from your 
 
 Deploy to the provider of your choice. This step may be different for each provider, so seek further instruction in their documentation.
 
+## Compose
+
+Each deployment also contains a docker-compose description yaml file (`compose.yml`). For local usage or quick startup you may use it like so:
+
+Build container:
+
+```bash
+docker-compose build
+```
+
+Start container:
+
+```bash
+docker-compose up
+```
+
+Build then start each time:
+
+```bash
+docker-compose up --build
+```
+
 ## LICENSE
 
 General MIT license: [view](/LICENSe)
