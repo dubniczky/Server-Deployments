@@ -21,6 +21,7 @@ Please read the [Docker documentation](https://docs.docker.com/) and set up cert
 |[FastAPI](/fastapi)|`v3.10`|1|`python`, `python3`, `pip`, `fastapi`, `uvicorn`|
 |[Go](/go)|`v1.18.2`|2|`go`, `golang`, `mux`, `alpine`|
 |[Laravel](/laravel)|`v9.1.8`|1|`php`, `laravel`, `artisan`, `composer`, `npm`|
+|[Nginx](/nginx)|`v1.21`|1|`nginx`, `js`, `static`, `html`, `css`|
 |[NodeJS](/nodejs)|`v16.15.0 LTS`|1|`nodejs`, `js`, `yarn`, `npm`, `npx`, `pnpm`, `pm2`|
 |[React](/react)|`v18.1.0`|2|`react`, `nginx`, `nodejs`, `js`, `html`, `yarn`, `npm`, `npx`|
 
@@ -28,7 +29,7 @@ Please read the [Docker documentation](https://docs.docker.com/) and set up cert
 
 ### 1. Move to project
 
-Move the `Dockerfile` and `.dockerignore` files into your project root. 
+Move the `Dockerfile` and `.dockerignore` files into your project root.
 
 ### 2. Update ignore
 
