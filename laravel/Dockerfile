@@ -13,7 +13,7 @@ RUN composer install --no-interaction
 # Generate new application key
 RUN php artisan key:generate
 
-# Built front-end packages
+# Build front-end packages
 RUN npm install && \
     npm run prod
 
