@@ -1,3 +1,6 @@
+# This is a dockerignore file for Laravel server deployments
+# Project: https://gitlab.com/richardnagy/container-environments/server-deployments
+
 # Folders
 vendor/
 node_modules/

@@ -1,3 +1,6 @@
+# This is a dockergile for Laravel server deployments
+# Project: https://gitlab.com/richardnagy/container-environments/server-deployments
+
 FROM bitnami/laravel:9.1.8
 
 # Expose default port of laravel server

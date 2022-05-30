@@ -1,3 +1,6 @@
+# This is a dockerignore file for Angular server deployments
+# Project: https://gitlab.com/richardnagy/container-environments/server-deployments
+
 .vscode/
 .git/
 .angular/

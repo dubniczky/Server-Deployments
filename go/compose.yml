@@ -1,3 +1,6 @@
+# This is a docker compose file for Go Mux server deployments
+# Project: https://gitlab.com/richardnagy/container-environments/server-deployments
+
 version: '3'
 services:
   gomux:

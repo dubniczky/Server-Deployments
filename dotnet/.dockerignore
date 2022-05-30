@@ -1,3 +1,6 @@
+# This is a dockerignore file for Dotnet Core server deployments
+# Project: https://gitlab.com/richardnagy/container-environments/server-deployments
+
 .git/
 .vs/
 .DS_Store/

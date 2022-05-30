@@ -1,3 +1,6 @@
+# This is a dockerignore file for react server deployments
+# Project: https://gitlab.com/richardnagy/container-environments/server-deployments
+
 .git/
 node_modules/
 build/

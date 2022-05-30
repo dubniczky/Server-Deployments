@@ -1,3 +1,6 @@
+# This is a dockerfile for NodeJS server deployments
+# Project: https://gitlab.com/richardnagy/container-environments/server-deployments
+
 FROM node:18
 
 # Expose api port

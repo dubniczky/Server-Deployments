@@ -1,3 +1,6 @@
+# This is a dockerfile for FastAPI server deployments
+# Project: https://gitlab.com/richardnagy/container-environments/server-deployments
+
 FROM python:3.10
 
 # Expose api ports (http, https)

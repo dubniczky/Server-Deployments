@@ -1,3 +1,6 @@
+# This is a dockerignore file for NodeJS server deployments
+# Project: https://gitlab.com/richardnagy/container-environments/server-deployments
+
 .git/
 node_modules/
 build/

@@ -1,3 +1,6 @@
+# This is a dockerfile for Nginx server deployments
+# Project: https://gitlab.com/richardnagy/container-environments/server-deployments
+
 FROM nginx:alpine
 
 # Nginx default directory

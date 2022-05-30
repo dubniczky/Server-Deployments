@@ -1,3 +1,6 @@
+# This is a dockerfile for Angular server deployments
+# Project: https://gitlab.com/richardnagy/container-environments/server-deployments
+
 ###
 ### BUILD STAGE
 ###

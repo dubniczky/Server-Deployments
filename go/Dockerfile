@@ -1,3 +1,6 @@
+# This is a dockerfile for Go Mux server deployments
+# Project: https://gitlab.com/richardnagy/container-environments/server-deployments
+
 ###
 ### BUILD STAGE
 ###
