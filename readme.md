@@ -25,6 +25,16 @@ Please read the [Docker documentation](https://docs.docker.com/) and set up cert
 |[NodeJS](/nodejs)|`v16.15.0 LTS`|1|`nodejs`, `js`, `yarn`, `npm`, `npx`, `pnpm`, `pm2`|
 |[React](/react)|`v18.1.0`|2|`react`, `nginx`, `nodejs`, `js`, `html`, `yarn`, `npm`, `npx`|
 
+## Contents
+
+Each deployment has the following structure. You may not need all the files.
+
+`/name`
+
+- `/Dockerfile` - Commands to build a container
+- `/.dockerignore` - List of files and folders not to copy into the container
+- `/compose.yml` - Instructions for docker compose on how to host the container(s)
+
 ## Usage
 
 ### 1. Move to project
