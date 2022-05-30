@@ -1,13 +1,32 @@
 # This is a dockerignore file for NodeJS server deployments
 # Project: https://gitlab.com/richardnagy/container-environments/server-deployments
 
+# Folders
 .git/
 node_modules/
+jspm_packages/
 build/
 dist/
+logs/
+.grunt/
+.npm/
+.vscode/
 
-.dockerignore
+# Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.yarn-integrity
+pnpm-debug.log*
+report.*.json
+*.tsbuildinfo
+*.tgz
+.eslintcache
 .gitignore
 readme.md
 README.md
+
+# Docker
 Dockerfile
+.dockerignore
