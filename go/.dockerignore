@@ -3,16 +3,27 @@
 
 # Folders
 .git/
+bin/
+test/
+pkg/
 
 # Files
+*.a
 *.so
 *.exe
 *.test
 *.dll
 *.out
+*.rej
+*.log
+*.orig
+_cgo_*
+_obj
+_test
+_testmain.go
+VERSION.cache
 go.work
 .gitignore
-*.log
 readme.md
 README.md
 
