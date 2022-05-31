@@ -17,6 +17,7 @@ Please read the [Docker documentation](https://docs.docker.com/) and set up cert
 |Framework|Version|Stages|Tags|
 |---|---|---|---|
 |[Angular](/angular)|`v13.3`|2|`angular`, `nginx`, `nodejs`, `ts`, `html`, `yarn`, `npm`, `npx`|
+|[Apache](/apache)|`v2.4`|1|`apache`, `static`, `html`, `css`, `php`, `js`|
 |[DotNET](/dotnet)|`v6.0`|2|`dotnet`, `c#`, `nuget`, `core`|
 |[FastAPI](/fastapi)|`v3.10`|1|`python`, `python3`, `pip`, `fastapi`, `uvicorn`|
 |[Go](/go)|`v1.18.2`|2|`go`, `golang`, `mux`, `alpine`|
