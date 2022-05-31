@@ -1,0 +1,9 @@
+# This is a dockerignore file for Apache server deployments
+# Project: https://gitlab.com/richardnagy/container-environments/server-deployments
+
+.git/
+
+.dockerignore
+.gitignore
+readme.md
+Dockerfile
