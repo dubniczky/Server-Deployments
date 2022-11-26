@@ -1,6 +1,15 @@
+# Editor
 .vscode/
 
+# Ignore all, except meta files
 */*
+!.github/*
+!.assets/*
+
+# Project files
 !*/Dockerfile
 !*/.dockerignore
 !*/compose.yml
+
+# Files
+.DS_Store

@@ -8,12 +8,6 @@ Server deployment containers for different frameworks
   </a>
 </div>
 
-## Support ❤️
-
-If you find the project useful, please consider supporting, or contributing.
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/dubniczky)
-
 ## Disclaimer
 
 These container images are not "final". They serve as a base to start out and in most cases work as-is with your project for quick testing.
@@ -44,7 +38,7 @@ Each deployment has the following structure. You may not need all the files.
 
 - `/Dockerfile` - Commands to build a container
 - `/.dockerignore` - List of files and folders not to copy into the container
-- `/compose.yml` - Instructions for docker compose on how to host the container(s)
+- `/compose.yml` - Instructions for docker-compose on how to host the container(s)
 
 ## Usage
 
@@ -54,7 +48,7 @@ Move the `Dockerfile` and `.dockerignore` files into your project root.
 
 ### 2. Update ignore
 
-Update `.dockerignore` to ignore everything you will not need for your deployment. Ideally you should ignore:
+Update `.dockerignore` to ignore everything you will not need for your deployment. Ideally, you should ignore:
 
 - Everything that's in your `.gitignore`
 - Git folder (`.git/`)
@@ -68,7 +62,7 @@ Update `.dockerignore` to ignore everything you will not need for your deploymen
 - Docker specific files
 - etc...
 
-As a rule of thumb, consider every file you deploy to be accessible for attackers in a breach, so remove all secret information, even after running the application (like `.env` file with login details).
+As a rule of thumb, consider every file you deploy to be accessible for attackers in a breach, so remove all secret information, even after running the application (like a `.env` file with login details).
 
 ### 3. Check Dockerfile
 
@@ -77,11 +71,11 @@ Check if the current Dockerfile settings work with your project. Some Dockerfile
 - Exposed ports
 - Package manager
 - Included necessary files
-- Correct entrypoint
+- Correct entry point
 
-### 4. Build container
+### 4. Build the container
 
-Build container with the given name and tag. Tag can be a version or a subtype of your project, like `wip`.
+Build the container with the given name and tag. The tag can be a version or a subtype of your project, like `wip`.
 
 > This command may require you to have administrator privileges
 
@@ -89,7 +83,7 @@ Build container with the given name and tag. Tag can be a version or a subtype o
 docker build -t <name>:<tag> .
 ```
 
-### 5. Run container locally
+### 5. Run the container locally
 
 Run the container and expose the given ports. Docker can forward those ports to another external one.
 
@@ -99,7 +93,7 @@ Run the container and expose the given ports. Docker can forward those ports to 
 docker run -p<port_ext>:<port_int> <name>:<tag>
 ```
 
-Test the container to see if everything is working and it's available from your browsers.
+Test the container to see if it's working and available from your browser.
 
 ### 6. Deploy your container
 
@@ -107,7 +101,7 @@ Deploy to the provider of your choice. This step may be different for each provi
 
 ## Compose
 
-Each deployment also contains a docker-compose description yaml file (`compose.yml`). For local usage or quick startup you may use it like so:
+Each deployment also contains a docker-compose description YAML file (`compose.yml`). For local usage or quick startup you may use it like so:
 
 Build container:
 
